@@ -132,7 +132,9 @@ PRODUCT_PACKAGES += \
 
 # QCOM OSS
 PRODUCT_PACKAGES += \
-   librmnetctl
+    librmnetctl \
+    libloc_api_v02 \
+    libloc_ds_api
 
 # Charger
 PRODUCT_PACKAGES += \
