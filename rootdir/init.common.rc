@@ -237,6 +237,15 @@ on boot
     write /proc/sys/kernel/dmesg_restrict 0
 
 
+service thermal-engine /system/vendor/bin/thermal-engine
+    class main
+    user root
+    group root
+    socket thermal-send-client stream 0666 system system
+    socket thermal-recv-client stream 0660 system system
+    socket thermal-recv-passive-client stream 0666 system system
+    writepid /dev/cpuset/system-background/tasks
+
 # SONY misc
 service tad_static /system/vendor/bin/tad_static /dev/block/bootdevice/by-name/TA 0,16
     class core
@@ -317,13 +326,6 @@ service sensors /system/vendor/bin/sensors.qcom
 # QCOM Secure
 service qseecomd /system/vendor/bin/qseecomd
     class core
-    user root
-    group root
-    writepid /dev/cpuset/system-background/tasks
-
-# OSS thermal management
-service thermanager /system/bin/thermanager /system/etc/thermanager.xml
-    class main
     user root
     group root
     writepid /dev/cpuset/system-background/tasks
