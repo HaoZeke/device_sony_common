@@ -1,0 +1,104 @@
+[
+  {
+    "remote":       "omnirom",
+    "repository":   "android_kernel_sony_msm",
+    "target_path":  "kernel/sony/msm",
+    "revision":     "android-7.1"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_dataservices",
+    "target_path":  "hardware/sony/dataservices",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_thermanager",
+    "target_path":  "hardware/sony/thermanager",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_timekeep",
+    "target_path":  "hardware/sony/timekeep",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_macaddrsetup",
+    "target_path":  "hardware/sony/macaddrsetup",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/kernel",
+    "target_path":  "kernel/sony/msm",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_hardware_qcom_audio",
+    "target_path":  "hardware/qcom/audio",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_hardware_qcom_bt",
+    "target_path":  "hardware/qcom/bt",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_hardware_qcom_camera",
+    "target_path":  "hardware/qcom/camera",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_hardware_qcom_fm",
+    "target_path":  "hardware/qcom/fm",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_hardware_qcom_gps",
+    "target_path":  "hardware/qcom/gps",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_hardware_qcom_keymaster",
+    "target_path":  "hardware/qcom/keymaster",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "SonyAosp/platform_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "DonkeyCoyote/proprietary_vendor_sony",
+    "target_path":  "vendor/sony",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_packages_apps_ExtendedSettings",
+    "target_path":  "packages/apps/ExtendedSettings",
+    "revision":     "android-7.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_packages_apps_FMRadio",
+    "target_path":  "packages/apps/FMRadio",
+    "revision":     "android-7.0"
+  }
+]
